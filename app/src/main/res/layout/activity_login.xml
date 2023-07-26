@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/button_background"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:src="@drawable/icon"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.03"
+        android:text="@string/loginTV"
+        android:textColor="#00008B"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_as_admin_or_student"
+        android:textColor="#00008B"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/et_logEmail"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="#00008B"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/et_logPassword"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="#00008B"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_showPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00008B"
+        android:textSize="18sp"
+        android:text="@string/show_password"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/forget_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forget_password"
+        android:textColor="#00008B"
+        style="@style/BoldText"
+        android:textSize="18sp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:text="@string/login"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/new_userTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/don_t_have_an_account_sign_up"
+        android:textColor="#00008B"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

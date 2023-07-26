@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Proactive</string>
+
+    <!--   Login  -->
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="email">Email</string>
+    <string name="loginTV">Login</string>
+    <string name="first_name_error_msg">Please Write your name in the name field!</string>
+
+    <string name="user_id_label">User ID :: %1$s</string>
+    <string name="user_email_label">User Email :: %1$s</string>
+    <string name="please_wait">Please Wait&#8230;</string>
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <!--   Remainder -->
+    <string name="title_remainder">Remainder</string>
+
+
+    <string name="app_usage_limit">Study Session</string>
+    <string name="title_study_group">Study Groups</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="events_fragment">Events Fragment</string>
+    <string name="view_reminders">View Reminders</string>
+    <string name="add_reminder">Add Reminder 🔔</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="profile">Profile</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="update_image">Update Image</string>
+    <string name="name">Name</string>
+    <string name="profile_email">Email</string>
+    <string name="education_level">Education Level</string>
+    <string name="education_background">Education Background</string>
+    <string name="interests">Interests</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="log_out">Log Out</string>
+    <string name="title_activity_remainders">RemaindersActivity</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="view_remainders">View Remainders</string>
+
+
+    <string name="start_timer">Set Limit</string>
+    <string name="social_media_usage_time_limit">Social Media Usage Time Limit</string>
+    <string name="title_events">Events\n</string>
+    <string name="submit">Submit</string>
+    <string name="register">Register</string>
+    <string name="delete">Delete</string>
+    <string name="your_reminders">Your Reminders</string>
+    <string name="no_reminders_found">No reminders found</string>
+    <string name="email_address">Email Address</string>
+    <string name="email_for_rest_password">Enter your Email address to send you an email to reset your password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="image">image</string>
+    <string name="password">Password</string>
+    <string name="send_data">Send Data</string>
+    <string name="register_activity">Register</string>
+    <string name="name_register">Name</string>
+    <string name="email_register">Email</string>
+    <string name="education_level_register">Education Level (e.g. School, University)</string>
+    <string name="register_interests">Interests (e.g. Math, Programming...)</string>
+
+    <string name="app_prompt">Choose an app</string>
+    <string name="duration_hint">Enter duration in minutes</string>
+    <string name="set_limit_button">Set Duration Limit</string>
+    <string name="admin_loginTV">Admin Login</string>
+    <string name="event_register">Register</string>
+    <string name="title_activity_admin_navigation">AdminNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login_as_admin_or_student">Login as Admin/Student</string>
+    <string name="show_password">Show Password</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_description">Event Description</string>
+    <string name="event_time">Event Time</string>
+    <string name="event_date">Event Date</string>
+    <string name="event_type">Event Type</string>
+    <string name="add_event">Add Event</string>
+    <string name="view_events">View Events</string>
+    <string name="add_events">Add Event</string>
+    <string name="logout">Logout</string>
+
+    <string name="study_session_channel">your_channel_id</string>
+    <string name="study_session_channel_name">Your Channel Name</string>
+
+    <string name="default_notification_channel_id">my_default_channel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="profile_navigation">Profile</string>
+    <string name="proactive_central">Proactive Central</string>
+    <string name="AddKnowledgeBase">Add Knowledge Base</string>
+    <string name="event_edit_titleTV">Title</string>
+    <string name="event_edit_title">Enter title</string>
+    <string name="event_edit_descriptionTV">Description</string>
+    <string name="event_edit_enter_description">Enter description</string>
+    <string name="event_edit_timeTV">Time</string>
+    <string name="event_edit_enter_time">Enter time</string>
+    <string name="event_edit_dateTV">Date</string>
+    <string name="event_edit_enter_date">Enter date</string>
+    <string name="event_edit_enter_type">Enter type</string>
+    <string name="event_edit_typeTV">Type</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register_password">Password</string>
+    <string name="events">Events</string>
+    <string name="view_registered_events">View Registered Events</string>
+    <string name="item_description">Description:</string>
+    <string name="join">Join</string>
+    <string name="item_cancel">Cancel</string>
+    <string name="time">Time:</string>
+    <string name="date">Date:</string>
+    <string name="type">Type:</string>
+    <string name="item_delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="create_session">Create Session</string>
+    <string name="image_placeholder">Image Placeholder</string>
+
+</resources>

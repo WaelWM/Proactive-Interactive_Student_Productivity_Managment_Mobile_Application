@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/button_background"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvSessionType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvStudyTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvBreakTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvStudyDurationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Study Duration (In Minutes):"
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+
+        <Spinner
+            android:id="@+id/spinnerStudyDuration"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="16sp"
+            android:popupBackground="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvBreakDurationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Break Duration (In Minutes):"
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+
+        <Spinner
+            android:id="@+id/spinnerBreakDuration"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="16sp"
+            android:popupBackground="@android:color/white" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textAllCaps="false"
+        android:text="Start/Stop/Reset"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/oval_button" />
+
+    <!-- TextView to show timer control instructions -->
+    <TextView
+        android:id="@+id/tvTimerInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:textStyle=""
+        android:gravity="center"
+        android:fontFamily="@font/proactive_font"
+        android:text="Click once to start, click again to stop, and click once more to reset the timer."
+        android:textSize="20sp"
+        android:textColor="@android:color/black" />
+
+    <!-- TextView to show motivational quote -->
+    <TextView
+        android:id="@+id/tvMotivationalQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/proactive_font"
+        android:text="Remember, Never stop or reset the sessions, unless you really need to!"
+        android:textSize="20sp"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

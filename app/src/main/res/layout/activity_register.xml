@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/button_background"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_activity"
+        android:textColor="#000080"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.03"/>
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="@string/name_register"
+        android:inputType="textPersonName"
+        android:textColor="#800000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/ed_email"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="@string/email_register"
+        android:inputType="textEmailAddress"
+        android:textColor="#800000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_educationLevel"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="@string/education_level_register"
+        android:textColor="#800000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/ed_interests"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="@string/register_interests"
+        android:textColor="#800000"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="@string/register_password"
+        android:textColor="#800000"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/ed_confirmPassword"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="@string/confirm_password"
+        android:textColor="#800000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#121e26"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/text_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account_sign_in"
+        android:textColor="#0d0d0d"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

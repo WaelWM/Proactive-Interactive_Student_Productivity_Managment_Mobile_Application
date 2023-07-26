@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_remainder"
+        android:icon="@drawable/reminder"
+        android:title="@string/title_remainder"
+        />
+
+
+    <item
+        android:id="@+id/navigation_app_usage_limit"
+        android:icon="@drawable/sand_timer"
+        android:title="@string/app_usage_limit" />
+
+    <!-- Combined EventsFragment and ProactiveCentralFragment within a single navigation item -->
+    <item
+        android:id="@+id/navigation_events_proactive_central"
+        android:icon="@drawable/knowledge"
+        android:title="@string/proactive_central" />
+
+    <item
+        android:id="@+id/navigation_study_groups"
+        android:icon="@drawable/study_group"
+        android:title="@string/title_study_group" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/vector_profile"
+        android:title="@string/profile_navigation" />
+
+</menu>

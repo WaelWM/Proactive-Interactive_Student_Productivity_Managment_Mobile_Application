@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/button_background">
+
+    <TextView
+        android:id="@+id/text_profile_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:textColor="#000080"
+        android:textSize="53sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:letterSpacing="0.03"/>
+
+    <ImageView
+        android:id="@+id/image_profileIV"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/default_profile_image"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/profile_image"/>
+
+    <TextView
+        android:id="@+id/TV_change_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_image"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#121e26"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-15dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/ed_profile_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textColor="#800000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/ed_profile_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/profile_email"
+            android:inputType="textEmailAddress"
+            android:textColor="#800000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/ed_profile_educationLevel"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/education_level"
+            android:textColor="#800000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/ed_profile_interests"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/interests"
+            android:textColor="#800000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btn_update_profile"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_background"
+            android:text="@string/update_profile"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="#121e26"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_background"
+            android:text="@string/log_out"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#121e26"
+            android:layout_marginLeft="-6dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_remainder">
+
+    <fragment
+        android:id="@+id/navigation_remainder"
+        android:name="fyp.wael.proactive.userInterface.fragment.RemainderFragment"
+        android:label="@string/title_remainder"
+        tools:layout="@layout/fragment_remainder" />
+
+    <fragment
+        android:id="@+id/navigation_app_usage_limit"
+        android:name="fyp.wael.proactive.userInterface.fragment.StudySessionFragment"
+        android:label="@string/app_usage_limit"
+        tools:layout="@layout/fragment_study_session" />
+
+    <fragment
+        android:id="@+id/navigation_study_groups"
+        android:name="fyp.wael.proactive.userInterface.fragment.StudyGroupsFragment"
+        android:label="@string/title_study_group"
+        tools:layout="@layout/fragment_study_groups" />
+
+    <fragment
+        android:id="@+id/navigation_events"
+        android:name="fyp.wael.proactive.userInterface.fragment.EventsFragment"
+        android:label="@string/title_events"
+        tools:layout="@layout/fragment_events" />
+
+    <fragment
+        android:id="@+id/navigation_proactive_central"
+        android:name="fyp.wael.proactive.userInterface.fragment.ProactiveCentralFragment"
+        android:label="Proactive Central"
+        tools:layout="@layout/fragment_proactive_central" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="fyp.wael.proactive.userInterface.fragment.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/combinedFragment"
+        android:name="fyp.wael.proactive.userInterface.fragment.CombinedFragment"
+        android:label="@string/proactive_central"
+        tools:layout="@layout/fragment_combined" />
+
+    <!-- Connect the combinedFragment to the navigation actions -->
+    <action
+        android:id="@+id/action_navigation_events_to_combinedFragment"
+        app:destination="@id/combinedFragment" />
+
+    <action
+        android:id="@+id/action_navigation_proactive_central_to_combinedFragment"
+        app:destination="@id/combinedFragment" />
+
+</navigation>

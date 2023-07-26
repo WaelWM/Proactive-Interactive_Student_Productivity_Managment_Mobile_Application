@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="education_levels">Education Level
+
+        <item>School Student</item>
+        <item>University Degree Student</item>
+        <item>University Diploma Student</item>
+        <item>University Master Student</item>
+        <item>University Phd Student</item>
+        <item>Other</item>
+
+
+    </string-array>
+</resources>

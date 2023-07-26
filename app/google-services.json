@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "212075113290",
+    "firebase_url": "https://proactive-33e18-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "proactive-33e18",
+    "storage_bucket": "proactive-33e18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212075113290:android:49404f5b165fec5d96efb3",
+        "android_client_info": {
+          "package_name": "fyp.wael.proactive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212075113290-cac73b23q8ne9jcat8vs5rg8d1qnes2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM9bpIc60I9PtslX7FDtjFw7aZYc8E4x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212075113290-cac73b23q8ne9jcat8vs5rg8d1qnes2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
