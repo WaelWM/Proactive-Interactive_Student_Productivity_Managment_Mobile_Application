@@ -91,6 +91,4 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging-ktx:23.1.2'
 
     implementation 'com.firebaseui:firebase-ui-firestore:8.0.0'
-
-
 }
